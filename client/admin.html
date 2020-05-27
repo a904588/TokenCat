@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="./AdminApp.js"> </script>
+<script src="/dist/bundle.js"></script>
+<h2 id="calendario"></h2>
+<h2>Transfer TokenCats</h2>
+<form name="FormTransferir" id="IDtransfer">
+  Username:  <input type="text" id ="username" name="username">
+  <br><br>
+  Value:  <input type="text" id="value" name="value">
+  <br><br>
+  <input type="submit" value="Transfer">
+</form>
+
+<h2>Ingresar nuevos platos</h2>
+<form name="NuevosPlatos" id="idNuevosPlatos">
+	Descripción: <input type="text" id="descripcion" name="nombre">
+	ID:  <input type="text" id="id" name="id">
+	<select id=tipoNuevoPlato></select>
+	<input type="submit" value="Agregar plato">
+</form>
+
+<h3>Primeros:</h3>
+<div id="idListaPrimeros"></div>
+<div id="idInfoPrimeros"></div>
+<h3>Segundos:</h3>
+<div id="idListaSegundos"></div>
+<div id="idInfoSegundos"></div>
+<h3>Postres:</h3>
+<div id="idListaPostres"></div>
+<div id="idInfoPostres"></div>
+
+<h2>Crear nuevos menus</h2>
+<form id="idNuevoMenu" name="NuevoMenu">
+	Primeros:  <select id="primero1" ></select> <select id="primero2" ></select>
+	Segundos: <select id="segundo1" ></select> <select id="segundo2" ></select>
+	Postres: <select id="postre1" ></select> <select id="postre2" ></select>
+	ID: <input type="text" id="idNuevoMenuID" name="idNuevoMenu">
+	<input type="submit" value="Agregar Menu">
+</form>
+<br>
+<br>
+<h3>Menus:</h3>
+<div id ="idTodoMenus"></div>
+
+<h2>Establecer el menu por días</h2>
+<form id="idEstablecerMenu" name="NuevoMenu">
+	Dia: <select id="dia" ></select>
+	Mes: <select id="Mes" ></select>
+	Año: <select id="Year" ></select>
+	ID: <select id="idMenuFecha" ></select>
+	<input type="submit" value="Agregar Menu">
+</form>
+
+<h2> Iniciar Propuestas</h2>
+<form name="Propuesta" id="Propuesta">
+	Descripción: <input type="text" id="desPropuesta" name="desPropuesta">
+	ID:  <input type="text" id="idPropuesta" name="idPropuesta">
+	<input type="submit" value="Crear propuesta">
+</form>
+<h3>Propuestas</h3>
+<div id="listaPropuestas"></div>
+<div id="VotoPropuestas"></div>
+
+<h2>Pedidos del día</h2>
+<div id="AddpedidosDia"></div>
+<div id="pedidosDia"></div>
+<h2>Menu del mes</h2>
+<div id="idMenuMes"></div>
+
+
+
+
+</body>
+</html>

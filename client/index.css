@@ -1,0 +1,73 @@
+#divTitulo{
+	background-color: rgb(204, 0, 0);
+	border-radius: 15px;
+	height: 100px;
+  	width: 100%;
+  	color: white;
+	text-align: left;
+	font-family: "Courier";
+}
+#TokenCat{
+	color: white;
+	text-align: left;
+	font-family: "Courier";
+	height: justify;
+	line-height: 1.7;
+	font-size: 60px;
+}
+
+#calendario{
+	background-color: rgb(100, 0, 0);
+	border-radius: 10px;
+	color: white;
+	text-align: justify;
+	font-family: "Courier";
+	font-size: 30px;
+	margin-top: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#verAddress{
+	background-color: rgb(100, 0, 0);
+	border-radius: 10px;
+	color: white;
+	text-align: justify;
+	font-family: "Courier";
+	font-size: 30px;
+	margin-top: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#saldo{
+	background-color: rgb(100, 0, 0);
+	border-radius: 10px;
+	color: white;
+	text-align: justify;
+	font-family: "Courier";
+	font-size: 30px;
+	margin-top: 20px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+
+#divCompra, #divValorar, #divVotar, #divModificar{
+	background-color: rgb(0, 255, 204);
+	border-radius: 15px;
+	color: white;
+	text-align: justify;
+	display: inline-block;
+	margin-top: 10px;
+}
+#h1comprarMenu, #h1valorarplato, #h1votarpropuesta, #h1modificar {
+	color: white;
+	text-align: left;
+	font-family: "Courier";
+	line-height: 1.7;
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+#PlatosValorados, #idHistorialValoraciones, #PropuestasVotadas, #idHistorialVotaciones{
+	display: inline-block;
+}

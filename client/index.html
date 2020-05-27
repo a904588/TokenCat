@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="divTitulo">
+<h1 id="TokenCat">TokenCat</h1>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="./app.js"> </script>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<!--<h1 id="calendario"></h1>-->
+<div id="calendario"></div>
+<!--<h1 id="verAddress"></h1>-->
+<div id="verAddress"></div>
+<!--<h1 id="saldo"></h1>-->
+<div id="saldo"></div>
+<br>
+<div id="divCompra">
+<h1 id="h1comprarMenu">Comprar Menu</h1>
+<form name="FormCompra" id="CompraID">
+	<!--Dia: <select id="dia" ></select>
+	Mes: <select id="Mes" ></select>
+	Año: <select id="Year" ></select>-->
+<select id="primero" name="primeros">
+</select>
+<select  id="segundo" name="segundos">
+</select>
+<select id="postre" name="postres">
+</select>
+<input type="submit" value="Comprar">
+</form>
+</div>
+
+<div id="divValorar">
+<h1 id="h1valorarplato">Valorar Platos</h1>
+<form name="FormValoraciones" id="ValoracionID">
+<select  id="valoraciones" name="Valoraciones">
+</select>
+<select id= numValoracion name="numValoracion"></select>
+<input type="submit" value="Valorar">	
+</form>
+</div>
+
+<div id="divVotar">
+<h1 id="h1votarpropuesta">Votar Propuestas</h1>
+<select  id="propuestas" name="Propuestas"><h1>Votar Propuestas</h1>
+</select>
+<button type="button" id=idSi>Si</button>
+<button type="button" id=idNo>No</button>
+</div>
+
+<div id="divModificar">
+<h1 id="h1modificar">Modificar Pedido</h1>
+<form name="formModificar" id="ModificarID">
+<select id="Mprimero" name="Mprimeros">
+</select>
+<select  id="Msegundo" name="Msegundos">
+</select>
+<select id="Mpostre" name="Mpostres">
+</select>
+<input type="submit" value="Modificar pedido">
+</form>
+</div>
+
+<h2>Pedido para hoy</h2>
+<div id="idHistorialPedidos"></div>
+<h2>Historial de Valoraciones</h2>
+<div id="PlatosValorados"></div>
+<div id="idHistorialValoraciones"></div>
+<h2>Historial de Votaciones de propuestas</h2>
+<div id="PropuestasVotadas"></div>
+<div id="idHistorialVotaciones"></div>
+
+
+
+
+
+
+<br></br>
+<a href="admin.html">Admin</a>
+<a href="/verCuentas">Ver cuentas Ethereum</a>
+<a href="/transferTokenCat.html">Transferir TokenCats</a>
+
+
+</body>
+</html>
